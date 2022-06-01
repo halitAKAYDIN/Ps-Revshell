@@ -68,6 +68,6 @@ function Invoke-RevShell {
         } catch {
             Write-Output $_.Exception.Message
         }
-        Start-Sleep 1
+        Start-Sleep 5
     }
 }
