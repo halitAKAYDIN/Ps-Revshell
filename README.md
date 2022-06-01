@@ -12,6 +12,16 @@ Ngrok
 Netcat
 ```
 
+## Testing:
+```
+Windows 10 Version 21H2, (Build number 19044)
+Windows 10 Version 20H2, (Build number 19042)
+Windows 10 Version 2004, (Build number 19041)
+Windows 10 Version 1909, (Build number 18363)
+Windows 10 Version 1507, (Build number 10240)
+```
+
+
 ## Example (Module):
 ```powershell
 C:\PS> Import-Module .\Invoke-RevShell
