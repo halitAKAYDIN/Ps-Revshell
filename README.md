@@ -1,5 +1,5 @@
 ## Video:
-[![2022-05-12-20:38:15.png]([https://raw.githubusercontent.com/halitAKAYDIN/LfiScan/main/2022-05-12-20%3A38%3A15.png](https://raw.githubusercontent.com/halitAKAYDIN/Ps-Revshell/main/2022-06-01-18%3A57%3A38.png))](https://youtu.be/ "Test")
+[![ScreenShot](https://raw.githubusercontent.com/halitAKAYDIN/Ps-Revshell/main/2022-06-01-18%3A57%3A38.png)](https://youtu.be/2w3Y46Z4BwE "Powershell Auto Ngrok RevShell")
 
 ## Description
 ```
